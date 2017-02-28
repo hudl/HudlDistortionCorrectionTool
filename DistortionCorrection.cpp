@@ -14,8 +14,8 @@ int getdir(std::string dir, std::vector<std::string> &files)
 	DIR *dp;
 	struct dirent *dirp;
 	if ((dp = opendir(dir.c_str())) == NULL) {
-		std::cout << "Error(" << errno << ") opening " << dir << std::endl;
-		return errno;
+		std::cout << "Error opening " << dir << std::endl;
+		return 0;
 	}
 
 	while ((dirp = readdir(dp)) != NULL) {
