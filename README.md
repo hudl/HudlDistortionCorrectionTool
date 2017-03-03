@@ -8,7 +8,7 @@ This tool is based on the OpenCV library https://github.com/opencv/opencv and th
 
 ## Mode 1: Generate camera parameters:
 
-To genereate the camera paramaters (camera instrinsic matrix and lens destortion coefficents), take (10 to 30) photos of the calibration pattern in different poses. http://docs.opencv.org/2.4/_downloads/pattern.png
+To generate the camera paramaters (camera instrinsic matrix and lens destortion coefficents), take (10 to 30) photos of the calibration pattern in different poses. http://docs.opencv.org/2.4/_downloads/pattern.png
 
 Usage : `./DistortionCorrection imges_dir`
 
