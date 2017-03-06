@@ -27,9 +27,9 @@ This mode will lunch an intaractive GUI that will allow you to tweak the camera 
 
 Usage :` ./DistortionCorrection  one_image InCameraParams.yaml DisplayScaleFactor`
 
-Example 1 : ` /DistortionCorrection "data/one_image.jpg" "data/CameraParams.yaml" 2.5 `
+Example 1 : ` /DistortionCorrection "ExampleData/image.jpg" "data/DistCoeffs.yaml" 2.5 `
 
-Example 2 : `/DistortionCorrection "data/one_image.jpg" "data/CameraParams.yaml"`
+Example 2 : `/DistortionCorrection "ExampleData/image.jpg" "data/DistCoeffs.yaml"`
 
 ### Parameters:
 
