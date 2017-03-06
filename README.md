@@ -29,7 +29,7 @@ Usage :` ./DistortionCorrection  one_image InCameraParams.yaml DisplayScaleFacto
 
 Example 1 : ` /DistortionCorrection "data/one_image.jpg" "data/CameraParams.yaml" 2.5 `
 
-Example 2 : /DistortionCorrection "data/one_image.jpg" "data/CameraParams.yaml" `
+Example 2 : `/DistortionCorrection "data/one_image.jpg" "data/CameraParams.yaml"`
 
 ### Parameters:
 
@@ -54,8 +54,8 @@ This script takes an input video and output directory and a `.yaml` file, and pr
 
 Usage : `./DistortionCorrection CamaraParams.yaml inputVid Output `
 
-Example 1: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "data/out_video.mp4"
-Example 2: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "data/out_images/*.jpg"
+Example 1: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "data/out_video.mp4"`
+Example 2: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "data/out_images/*.jpg"`
 
 ### Parametres:
 
