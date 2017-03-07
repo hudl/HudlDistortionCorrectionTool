@@ -23,7 +23,7 @@ Example : ` /DistortionCorrection "data/patternImages/" `
 
 ## Mode 2: Tweak camera parameters:
 
-This mode will lunch an intaractive GUI that will allow you to tweak the camera parameters in the initial `.yaml` file from Mode 1 for more vidually appealing results. Once you are done with tweaking, press the space, escape or enter key to save the outputs.
+This mode will lunch an intaractive GUI that will allow you to tweak the camera parameters in the initial `.yaml` file from Mode 1 for more visually appealing results. Once you are done with tweaking, press the space, escape or enter key to save the outputs.
 
 Usage :` ./DistortionCorrection  one_image InCameraParams.yaml DisplayScaleFactor`
 
@@ -50,7 +50,7 @@ Example 2 : `/DistortionCorrection "ExampleData/image.jpg" "data/DistCoeffs.yaml
 ## Mode 3: Apply parameters to a video:
 
 
-This script takes an input video and output directory and a `.yaml` file, and produces distrortion-corrected images.
+This script takes an input video and output directory and a `.yaml` file, and produces distortion-corrected images.
 
 Usage : `./DistortionCorrection CamaraParams.yaml inputVid Output `
 
