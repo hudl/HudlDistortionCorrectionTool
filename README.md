@@ -58,7 +58,7 @@ Example 1: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "dat
 
 Example 2: ` ./DistortionCorrection "CamaraParams.yaml" "data/in_video.mp4" "data/out_images/*.jpg"`
 
-### Parametres:
+### Parameters:
 
 `CamaraParams.yaml` -  camera Parameters file (generted by mode 1 or 2).
 
